@@ -1,2 +1,5 @@
-package com.study.pass.repository.pass;public class PassStatus {
+package com.study.pass.repository.pass;
+
+public enum PassStatus {
+    READY, PROGRESSED, EXPIRED
 }
