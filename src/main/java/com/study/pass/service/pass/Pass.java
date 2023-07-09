@@ -1,2 +1,4 @@
-package com.study.pass.service.pass;public class Pass {
+package com.study.pass.service.pass;
+
+public class Pass {
 }
