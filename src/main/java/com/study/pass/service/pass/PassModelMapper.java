@@ -16,6 +16,7 @@ public interface PassModelMapper {
     @Mapping(target = "packageName", source = "packageEntity.packageName")
     Pass map(PassEntity passEntity);
 
+    // entity를 Pass dto로 변환하는 메소드
     List<Pass> map(List<PassEntity> passEntities);
 
 }
